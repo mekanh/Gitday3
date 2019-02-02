@@ -21,8 +21,6 @@ public class LoginTests {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-
-
     @Test
     public void loginTest1() {
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
@@ -44,6 +42,5 @@ public class LoginTests {
     public void cleanUp(){
         driver.close();
     }
-
 
 }
