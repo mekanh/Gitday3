@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTests {
@@ -51,4 +53,5 @@ public class LoginTests {
         driver.close();
     }
 
+    Map<String,String> myMap = new HashMap<>();
 }
